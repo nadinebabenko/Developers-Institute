@@ -78,17 +78,15 @@ button:hover {
 
   address {
     text-align: center;
-  }
-  .roni {}
+  }  
 
-  .bambash {}
-
-  .bambas {
-	margin: 0;
-	cursor: grab;
-	border-radius:95% ;
-	width: 90px;
-	height:90px;
+	  img{
+		
+		width: 170px;
+		height:200px;	
+		border-radius:100% ;
+		margin-right: 90px;
+		
 	  }
 
 	  footer {
