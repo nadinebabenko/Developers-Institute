@@ -1,0 +1,82 @@
+ 
+ 
+ h3 {
+    font-family: 'Tilt Neon', cursive;
+ }
+
+
+
+button {
+    display: flex;
+   float: right;
+    background-color: aqua;
+    margin-top: -45px;
+    margin-bottom: 8px;
+    padding: 5px;
+    cursor: wait;
+    font-family: 'Dosis', sans-serif;
+
+}
+div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.centered {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-family: 'Climate Crisis', cursive;
+    font-size: larger;     
+}
+.email   {
+    display:  block;
+   margin-left: 35px;     
+    padding: 0.3px;
+    margin: 15px;
+    position: absolute;
+    top: 52%;
+    left: 35%;
+   
+   
+}
+.signup {
+    display: flex;
+    float: right;
+    border: 2px solid black;
+    background-color: aqua;
+    margin-left: 335px;
+    margin-top: -5px;
+    padding: 3px;
+    cursor: wait;
+}
+ 
+
+       
+
+ 
+
+table {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+ 
+.full {
+    text-align: center;
+    font-weight: bold;
+    font-weight: 20px;
+}
+.theme {
+   width: 12%;
+   padding-left: 1px;
+   padding-right: 12px;
+   text-align: center;
+   color: grey;
+}
