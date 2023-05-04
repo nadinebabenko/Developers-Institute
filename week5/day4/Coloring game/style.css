@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: grey;
 }
 
 body{
@@ -11,19 +12,54 @@ padding: 0;
 height: 100vh;
 display: grid;
 grid-template-columns: 1fr 4fr; 
-background-color: grey;
-padding: 0.5rem; 
+
+padding: 0.5rem;
 }
 
-#container>*{
-border: 1px solid pink;
+#container>* {
+border: 1px solid black;
 }
 
 #sidebar{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    border: 2px solid pink;
+     
     color: black;
-    padding: 0.5rem; 
+    gap: 1px;
+    padding-left:1px ;
+    padding-right: 1px ;
+   
     }
+
+ 
+
+  .clear {
+grid-column: 1 / 4;
+padding:0.5rem;
+
+
+    }
+    button {
+        height:100%;
+        width:100% ;
+        border-radius:0.6 rem;
+        background-color: white;
+        cursor:pointer
+        
+    }
+    .color {
+        background-color: white;
+        border: 1px solid black;
+        cursor:pointer
+    }
+    #main {
+display: grid;
+grid-template-columns: repeat(60, 1fr);   
+ }
+#main>*{
+    background-color: white;
+
+    border: 1px solid lightgray;
+}
+ 
